@@ -1,0 +1,101 @@
+Rank,Company,Ticker,1Y Return (%)
+1,NVIDIA,NVDA,53.56
+2,Microsoft,MSFT,20.59
+3,Apple,AAPL,9.73
+4,Alphabet (Google),GOOG,45.14
+5,Amazon,AMZN,17.56
+6,Meta Platforms,META,46.39
+7,Broadcom,AVGO,90.44
+8,Tesla,TSLA,66.58
+9,TSMC,TSM,61.02
+10,Oracle,ORCL,64.23
+11,Tencent,TCEHY,55.22
+12,Netflix,NFLX,67.48
+13,Alibaba,BABA,70.83
+14,Palantir,PLTR,384.44
+15,Samsung Electronics,005930.KS,30.19
+16,ASML,ASML,16.7
+17,SAP,SAP,17.62
+18,Cisco,CSCO,31.53
+19,IBM,IBM,31.92
+20,AMD,AMD,-2.25
+21,AppLovin,APP,447.73
+22,Salesforce,CRM,-11.03
+23,Uber,UBER,33.06
+24,ServiceNow,NOW,6.22
+25,Intuit,INTU,12.82
+26,PDD Holdings (Pinduoduo),PDD,-2.77
+27,Sony Group,SONY,22.1
+28,Texas Instruments,TXN,3.92
+29,Qualcomm,QCOM,14.44
+30,Infosys,INFY,6.12
+31,Tencent Music Entertainment,TME,31.53
+32,JD.com,JD,16.6
+33,Shopify,SHOP,47.02
+34,Airbnb,ABNB,32.56
+35,Applied Materials,AMAT,9.93
+36,Workday,WDAY,2.34
+37,Snowflake,SNOW,-9.21
+38,Adobe,ADBE,10.65
+39,ByteDance (private),N/A,
+40,CrowdStrike,CRWD,82.67
+41,NXP Semiconductors,NXPI,15.44
+42,Spotify,SPOT,76.58
+43,Arm Holdings,ARM,102.45
+44,Micron Technology,MU,11.24
+45,Atlassian,TEAM,-13.18
+46,KLA Corporation,KLAC,4.73
+47,Baidu,BIDU,9.88
+48,Zoom Video,ZM,-6.75
+49,Dell Technologies,DELL,108.22
+50,Booking Holdings,BKNG,19.56
+51,Hewlett Packard Enterprise,HPE,14.1
+52,HP Inc.,HPQ,23.47
+53,Nintendo,7974.T,9.24
+54,Fujitsu,6702.T,12.66
+55,Analog Devices,ADI,7.38
+56,Garmin,GRMN,28.11
+57,Zscaler,ZS,23.66
+58,Electronic Arts,EA,8.73
+59,Marvell Technology,MRVL,5.51
+60,Twilio,TWLO,-21.88
+61,Block (Square),SQ,-5.66
+62,Infosys ADR,INFY,5.91
+63,Datadog,DDOG,12.41
+64,Unity Software,U,-30.24
+65,Palo Alto Networks,PANW,36.85
+66,Sea Limited,SE,-4.12
+67,Match Group,MTCH,-17.03
+68,PayPal,PYPL,-15.62
+69,Samsung SDS,018260.KQ,25.1
+70,Okta,OKTA,-9.84
+71,GlobalFoundries,GFS,7.23
+72,Seagate Technology,STX,8.34
+73,Synopsys,SNPS,18.44
+74,Xiaomi,1810.HK,14.87
+75,Lam Research,LRCX,12.16
+76,Western Digital,WDC,-3.46
+77,Cognizant,CTSH,6.55
+78,DoorDash,DASH,9.78
+79,Pinterest,PINS,31.12
+80,Roblox,RBLX,28.91
+81,Snap Inc.,SNAP,-28.44
+82,Yandex,YNDX,-12.67
+83,Grab Holdings,GRAB,15.28
+84,Infosys India,INFY.NS,6.32
+85,Unity Digital,N/A,
+86,Kakao,035720.KQ,-3.87
+87,LG Electronics,066570.KQ,19.64
+88,Rakuten Group,4755.T,7.45
+89,Naver,035420.KQ,8.92
+90,Wise Plc,WISE.L,32.77
+91,Line Corp,3938.T,4.33
+92,Delivery Hero,DHER.DE,14.85
+93,Adyen,ADYEY,-6.53
+94,Coinbase,COIN,61.44
+95,Doosan Robotics,N/A,
+96,Coupang,CPNG,17.56
+97,MercadoLibre,MELI,27.91
+98,DoorDash ADR,DASH,8.65
+99,Grab ADR,GRAB,14.11
+100,UiPath,PATH,19.06
