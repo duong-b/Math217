@@ -1,0 +1,132 @@
+---
+title: 'MAT 217: ASSIGNMENT 1'
+author: "Author Name"
+date: "`r Sys.Date()`"
+output:
+  openintro::lab_report: default
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(openintro)
+```
+
+# CONCEPT UNDERSTANDING 
+
+## Question 1
+
+The General Social Survey asked the question, "After an average work day, about how many hours do you have to relax or pursue activities that you enjoy?" to a random sample of 1155 Americans. The average relaxing time was found to be 1.65 hours. Determine which of the following is a sample, a population, a variable, a sample statistic (value calculated based on the observed sample), or a population parameter. 
+
+(a) 1155 Americans that were included in the study
+(b) Number of hours spent relaxing after an average work day
+(c) 1.65
+(d) Average number of hours all Americans spend relaxing after an average work day
+(e) All Americans
+
+> ANSWER: 
+
+## Question 2
+
+Sir Ronald Aylmer Fisher was an English statistician, evolutionary biologist, and geneticist who worked on a data set that contained sepal length and width, and petal length and width from three species of iris flowers (setosa, versicolor and virginica). There were 50 flowers from each species in the data set. Run the code below to see the full data set (look for the small green 'Play' button on the top right corner of the code chunk)
+
+```{r eval=FALSE}
+iris
+```
+
+(a) How many numerical variables are included in the data? Indicate what they are, and if they are continuous or discrete. 
+(b) How many categorical variables are included in the data and what are they? List the corresponding levels (categories). 
+
+# BOODLEBOX
+
+## Question 1
+
+You would like to conduct an experiment in class to see if students learn better if they study without any music, with music that has no lyrics (instrumental), or with music that has lyrics. Briefly outline a design for this study. 
+
+> ANSWER
+
+# COMPUTATION
+
+# Question 1: Data frame
+
+Let's work with a vector of favorite colors from a small survey.
+
+```{r}
+favorite_colors <- c("blue", "red", "green", "blue", "blue", "red")
+# The table() function counts how many times each value appears
+table(favorite_colors)
+```
+
+
+(a) Run the code above to see the frequency of each color.
+(b) Add 3 more entries to the vector and re-run the `table()` function.
+
+# Question 2: Plot
+
+
+```{r}
+student_names <- c("Alice", "Bob", "Charlie", "Dana")
+test_scores <- c(85, 92, 88, 79)
+students <- data.frame(Name = student_names, Score = test_scores)
+students
+
+# View the structure of your data frame
+str(students)
+```
+
+(a) Run the code and inspect the `students` data frame. What does each column in the data frame represent? How many cases are there in the data set?
+(b) Add a new variable to represent the number of hours each student studied:
+
+```{r}
+students$Hours <- c(10, 15, 12, 8)
+students
+```
+
+(c) Run the following code to make a basic plot of hours studied and scores 
+
+```{r}
+plot(students$Hours, students$Score,
+     main = "Score vs Hours Studied",
+     xlab = "Hours Studied",
+     ylab = "Score")
+```
+
+What is your observation about the reslationship between studied and scores?
+
+# Question 3: Debugging an Error
+
+The following code is meant to calculate the mean of a numeric vector. But it doesn't work.
+
+```{r eval = FALSE}
+number_values <- c(5, 10, 15, 20) 
+mean[number_values]
+```
+
+(a) Before running the code, write down:
+   - What you think this code is trying to do
+   - What you predict might go wrong
+
+> ANSWER:
+
+(b) Run the code and read the error message carefully.
+(c) Write down:
+   - What error message did you get?
+   - What do you think each part of the error means?
+   - What's your best guess for the fix?
+
+> ANSWER
+
+(d) Try to fix the code yourself and run it again.
+
+# REFLECTION/COMMENTS
+
+1. What was the most challenging part of working with R in this assignment?
+
+> ANSWER:
+
+2. Which LLM interaction was most helpful for your learning? Why?
+
+> ANSWER: 
+
+3. How did using the LLM change how you approached the problems compared to working alone?
+
+> ANSWER:
